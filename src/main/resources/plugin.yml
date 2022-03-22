@@ -1,0 +1,12 @@
+name: Zonewars
+version: '${project.version}'
+main: ben.zonewars.Main
+api-version: 1.18
+authors: [ Ben ]
+description: With this plugin you can play a PvP match with ever shrinking world
+commands:
+  zonewars:
+    usage: /zonewars <start | creator> [<small | middle | big>]
+    permission:
+      ZoneWars.*
+    permission-message: You don't have the permission!
